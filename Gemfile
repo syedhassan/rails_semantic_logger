@@ -15,7 +15,7 @@ gem "rails", "~> 5.0.0"
 gem "activerecord-jdbcsqlite3-adapter", "~> 50.0", platform: :jruby
 gem "sqlite3", "~> 1.3.0", platform: :ruby
 gem "jdbc-sqlite3", platform: :jruby
-
+gem "semantic_logger", git: "https://github.com/syedhassan/semantic_logger.git"
 group :development do
   gem "rubocop"
 end
